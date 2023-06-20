@@ -3,7 +3,7 @@ import os
 import sys
 import time
 from http import HTTPStatus
-from typing import Any
+from typing import Any, Optional
 
 import requests
 import telegram
@@ -16,9 +16,9 @@ from exceptions import (APINotFoundError, CurrentDateNotFoundError,
 load_dotenv()
 
 
-PRACTICUM_TOKEN: str | None = os.getenv('PRACTICUM_TOKEN')
-TELEGRAM_TOKEN: str | None = os.getenv('TELEGRAM_TOKEN')
-TELEGRAM_CHAT_ID: str | None = os.getenv('TELEGRAM_CHAT_ID')
+PRACTICUM_TOKEN: Optional[str] = os.getenv('PRACTICUM_TOKEN')
+TELEGRAM_TOKEN: Optional[str] = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_CHAT_ID: Optional[str] = os.getenv('TELEGRAM_CHAT_ID')
 
 RETRY_PERIOD: int = 600
 ENDPOINT: str = 'https://practicum.yandex.ru/api/user_api/homework_statuses/'
