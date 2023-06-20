@@ -16,6 +16,12 @@ class HomeworksNotFoundError(Exception):
     pass
 
 
+class CurrentDateNotFoundError(Exception):
+    """Исключение, возникающее при отсутствии даты."""
+
+    pass
+
+
 class StatusNotFoundError(Exception):
     """Исключение, возникающее в случае отсутствия статуса задания."""
 
