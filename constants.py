@@ -1,0 +1,7 @@
+API_REQUEST_FAILURE = 'Сбой при запросе к эндпоинту'
+INVALID_RESPONSE_TYPE = 'Неверный тип данных'
+MISSING_CURRENT_DATE_KEY = 'Отсутствует ключ "current_date"'
+MISSING_HOMEWORK_NAME = 'Отсутствует переменная "homework_name"'
+MISSING_HOMEWORKS_KEY = 'Отсутствует ключ "homeworks"'
+MISSING_TOKENS = 'Отсутствуют обязательные переменные'
+UNEXPECTED_STATUS = 'Неожиданный статус домашней работы'
