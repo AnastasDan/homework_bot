@@ -56,15 +56,15 @@ pip install -r requirements.txt
 
 * Если у вас Linux/MacOS:
 
-```
-python3 homework.py
-```
+    ```
+    python3 homework.py
+    ```
 
 * Если у вас Windows:
 
-```
-python homework.py
-```
+    ```
+    python homework.py
+    ```
 
 ## Автор проекта
 
