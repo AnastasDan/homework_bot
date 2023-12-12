@@ -54,17 +54,9 @@ pip install -r requirements.txt
 
 Запускаем проект:
 
-* Если у вас Linux/MacOS:
-
-    ```
-    python3 homework.py
-    ```
-
-* Если у вас Windows:
-
-    ```
-    python homework.py
-    ```
+ ```
+python homework.py
+```
 
 ## Автор проекта
 
